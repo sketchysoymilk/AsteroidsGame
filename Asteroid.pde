@@ -8,8 +8,8 @@ class Asteroid extends Floater
       yCorners = new int []{(int)(Math.random()*4)-7,(int)(Math.random()*4)-9,(int)(Math.random()*4)-3,(int)(Math.random()*4)+4,(int)(Math.random()*4)+8,(int)(Math.random()*4)-2};
     myColor = color(0);
     myCenterX = myCenterY = Math.random()*500;
-    myXspeed = (int)(Math.random()*3)+1;
-    myYspeed = (int)(Math.random()*3)+1;
+    myXspeed = (int)(Math.random()*2)+1;
+    myYspeed = (int)(Math.random()*2)+1;
     myPointDirection = 0;
   }
   public void move(){
